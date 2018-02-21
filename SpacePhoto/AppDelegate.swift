@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SpacePhoto
-//
-//  Created by user131656 on 2/21/18.
-//  Copyright © 2018 user131656. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
