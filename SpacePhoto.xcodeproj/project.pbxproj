@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2240EF71203F8330009F93D0 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2240EF70203F8330009F93D0 /* PhotoInfoController.swift */; };
 		22DC3B2E203E1B8100ACFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B2D203E1B8100ACFD8C /* AppDelegate.swift */; };
 		22DC3B30203E1B8100ACFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B2F203E1B8100ACFD8C /* ViewController.swift */; };
 		22DC3B33203E1B8100ACFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC3B31203E1B8100ACFD8C /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2240EF70203F8330009F93D0 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 		22DC3B2A203E1B8100ACFD8C /* SpacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DC3B2D203E1B8100ACFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22DC3B2F203E1B8100ACFD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				22DC3B39203E1B8100ACFD8C /* Info.plist */,
 				22DC3B3F203E1E5700ACFD8C /* PhotoInfo.swift */,
 				D42F90B9203E94A700B38AB4 /* URL+Helpers.swift */,
+				2240EF70203F8330009F93D0 /* PhotoInfoController.swift */,
 			);
 			path = SpacePhoto;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DC3B40203E1E5700ACFD8C /* PhotoInfo.swift in Sources */,
+				2240EF71203F8330009F93D0 /* PhotoInfoController.swift in Sources */,
 				D42F90BA203E94A700B38AB4 /* URL+Helpers.swift in Sources */,
 				22DC3B30203E1B8100ACFD8C /* ViewController.swift in Sources */,
 				22DC3B2E203E1B8100ACFD8C /* AppDelegate.swift in Sources */,
