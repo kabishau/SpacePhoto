@@ -17,13 +17,15 @@ class ViewController: UIViewController {
         copyrightLabel.text = ""
         
         photoInfoController.fetchPhotoInfo { (photoInfo) in
-            self.title = photoInfo?.title
-            self.descriptionLabel.text = photoInfo?.description
-            if let copyright = photoInfo?.copyright {
-                self.copyrightLabel.text = "Copyright \(copyright)"
-            } else {
-                self.copyrightLabel.isHidden = true
-            }
+            DispatchQueue.main.async {
+                self.title = photoInfo?.title
+                self.descriptionLabel.text = photoInfo?.description
+                if let copyright = photoInfo?.copyright {
+                    self.copyrightLabel.text = "Copyright \(copyright)"
+                } else {
+                    self.copyrightLabel.isHidden = true
+                }            }
+            
         }
     }
 }

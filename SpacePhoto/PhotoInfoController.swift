@@ -2,6 +2,7 @@ import Foundation
 
 
 struct PhotoInfoController {
+    
     func fetchPhotoInfo(completion: @escaping (PhotoInfo?) -> Void) {
         let baseURL = URL(string: "https://api.nasa.gov/planetary/apod")!
         let query: [String: String] = ["api_key": "DEMO_KEY", "date": "2012-10-25"]
