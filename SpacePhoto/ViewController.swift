@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         descriptionLabel.text = ""
         copyrightLabel.text = ""
         
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        
         photoInfoController.fetchPhotoInfo { (photoInfo) in
             if let photoInfo = photoInfo {
                 self.updateUI(with: photoInfo)
@@ -34,9 +36,12 @@ class ViewController: UIViewController {
                     } else {
                         self.copyrightLabel.isHidden = true
                     }
+                    
+                    UIApplication.shared.isNetworkActivityIndicatorVisible = false
                 }
             }
         }
+        
         task.resume()
     }
 }
